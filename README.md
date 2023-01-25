@@ -36,3 +36,13 @@ git rm --cached <nombre_fichero>
 - del WORKSPACE
 - En el staging se le dice que en el proximo paquete de cambios, se elimine el fichero
 git rm <nombre_fichero>
+
+# Mandar los cambios que hay apuntados en el AREA de STAGING al repo
+git commit -m 'mensaje'
+
+git config --global user.name "Your Name"
+git config --global user.email you@example.com
+Esto "toca" el archivo interno .git/config
+
+# Ver lo que hay en el repositorio
+git ls-files
