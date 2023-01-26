@@ -48,6 +48,9 @@ Esto "toca" el archivo interno .git/config
 git ls-files
 
 # Hacer un add automatico de los cambios de los ficheros QUE YA SE ESTAN CONTROLANDO
-  y de esos cambios se hace un COMMIT
-  
+#  y de esos cambios se hace un COMMIT
 git commit -am 'Superheroes DC'
+
+#Restaurar el workspace desde el ultimo COMMIT
+git reset --hard
+
