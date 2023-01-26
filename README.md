@@ -46,3 +46,8 @@ Esto "toca" el archivo interno .git/config
 
 # Ver lo que hay en el repositorio
 git ls-files
+
+# Hacer un add automatico de los cambios de los ficheros QUE YA SE ESTAN CONTROLANDO
+  y de esos cambios se hace un COMMIT
+  
+git commit -am 'Superheroes DC'
