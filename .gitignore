@@ -1,18 +1,15 @@
 # Comentarios
 
 # Lineas en blanco se ignora
-tmp/peliculas_marvel.txt
 Thumbs.db
 .DS_Store  # Todos los archivos con ese nombre, independientemente de su ubicación
 
+tmp/peliculas_marvel.txt
 tmp/       # Todas las carpetas se ignoran, independientemente de su ubicacion
-
 /tmp       # Solo ignora la carpeta tmp del directorio raiz
-
 tmp/*.txt   
+!/tmp/peliculas_marvel.txt  # Signo admiración: Anular una orden de ignore (se suelen poner al final)
 
 log??-??-????
 
 /src/**/tmp     # A cualquier nivel
-
-!/tmp/peliculas_marvel.txt  # Signo admiración: Anular una orden de ignore (se suelen poner al final)
