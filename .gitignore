@@ -4,7 +4,7 @@
 Thumbs.db
 .DS_Store  # Todos los archivos con ese nombre, independientemente de su ubicación
 
-tmp/peliculas_marvel.txt
+tmp/todo_marvel.txt
 tmp/       # Todas las carpetas se ignoran, independientemente de su ubicacion
 /tmp       # Solo ignora la carpeta tmp del directorio raiz
 tmp/*.txt   
